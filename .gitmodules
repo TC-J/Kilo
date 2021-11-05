@@ -1,0 +1,3 @@
+[submodule "kilo\\vendor\\glfw"]
+	path = kilo\\vendor\\glfw
+	url = https://github.com/TC-J/glfw
