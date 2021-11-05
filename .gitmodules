@@ -1,3 +1,6 @@
 [submodule "kilo\\vendor\\glfw"]
 	path = kilo\\vendor\\glfw
 	url = https://github.com/TC-J/glfw
+[submodule "Kilo\\vendor\\spdlog"]
+	path = Kilo\\vendor\\spdlog
+	url = https://github.com/gabime/spdlog
