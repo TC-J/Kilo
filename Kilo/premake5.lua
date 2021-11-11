@@ -17,6 +17,11 @@ project "Kilo"
 		"%{prj.location}/src"
 	}
 
+	links {
+		"ImGui",
+		"GLFW"
+	}
+
 	postbuildcommands {
 		("{COPY} %{wks.location}/target/" .. outputdir .. "/%{prj.name} %{wks.location}/target/SandboxApp-%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/SandboxApp")
 	}

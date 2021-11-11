@@ -6,7 +6,7 @@
 #include <iostream>
 #pragma once
 #include <Kilo/Core/Core.h>
-
+#include <imgui.h>
 
 namespace Kilo {
 

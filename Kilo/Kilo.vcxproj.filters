@@ -7,8 +7,8 @@
     <Filter Include="Kilo\Core">
       <UniqueIdentifier>{CC598979-38C4-3DF0-8102-EF95EDAB1B45}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Kilo\Core\Errors">
-      <UniqueIdentifier>{184B1538-0444-348A-2D76-190F19CE1396}</UniqueIdentifier>
+    <Filter Include="Kilo\UI">
+      <UniqueIdentifier>{A11BDD8D-0DFB-5B29-1613-E7FF8271C28A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -17,7 +17,15 @@
       <Filter>Kilo\Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Kilo\Core\Error.h">
-      <Filter>Kilo\Core\Errors</Filter>
+      <Filter>Kilo\Core</Filter>
     </ClInclude>
+    <ClInclude Include="src\Kilo\UI\UI.h">
+      <Filter>Kilo\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Kilo\Core\Core.cpp">
+      <Filter>Kilo\Core</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
