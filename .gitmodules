@@ -4,3 +4,6 @@
 [submodule "Kilo\\vendor\\spdlog"]
 	path = Kilo\\vendor\\spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "Kilo/vendor/imgui"]
+	path = Kilo/vendor/imgui
+	url = https://github.com/TC-J/imgui
