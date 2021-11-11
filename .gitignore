@@ -1,1 +1,9 @@
 .vs/
+
+target/
+
+intermediate/
+
+*.swp
+
+
