@@ -4,9 +4,7 @@
 #include <unordered_map>
 #include <tuple>
 #include <iostream>
-#pragma once
-#include <Kilo/Core/Core.h>
-#include <imgui.h>
+#include <Kilo/UI/UI.h>
 
 namespace Kilo {
 
@@ -16,10 +14,14 @@ namespace Kilo {
 
 }
 
+
 #ifndef DLL
 
 int main() {
+	init_glfw();
 	std::cout << "Kilo Runtime Engine" << std::endl;
+
+
 	while (true);
 }
 #endif

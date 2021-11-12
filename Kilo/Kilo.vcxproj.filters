@@ -27,5 +27,6 @@
     <ClCompile Include="src\Kilo\Core\Core.cpp">
       <Filter>Kilo\Core</Filter>
     </ClCompile>
+    <ClCompile Include="src\Kilo\UI\UI.cpp" />
   </ItemGroup>
 </Project>
