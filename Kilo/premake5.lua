@@ -3,7 +3,6 @@ project "Kilo"
 	language "C++"
 	cppdialect "C++20"
 	systemversion "latest"
-	staticruntime "On"
 	
 	targetdir ("%{wks.location}/target/" .. outputdir .. "/%{prj.name}")
 	objdir ("%{wks.location}/intermediate/" .. outputdir .. "/%{prj.name}")
@@ -17,9 +16,13 @@ project "Kilo"
 		"%{prj.location}/src"
 	}
 
+
 	links {
+		"GLFW",
+		"Glad",
 		"ImGui",
-		"GLFW"
+		"opengl32",
+		"gdi32"
 	}
 
 	postbuildcommands {

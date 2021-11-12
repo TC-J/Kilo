@@ -8,12 +8,19 @@ workspace "Kilo"
 
 	outputdir = "%{prj.name}-%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
-	includedirs {
-		"Kilo/vendor/imgui",
-		"Kilo/vendor/glfw/include"
+	libdirs {
+		"/c/Windows/System32"
 	}
 
-	include "Kilo/vendor/imgui"
+	includedirs {
+		"Kilo/vendor/imgui",
+		"Kilo/vendor/imgui/backends",
+		"Kilo/vendor/glfw/include",
+		"Kilo/vendor/glad/include"
+	}
+
 	include "Kilo/vendor/glfw"
+	include "Kilo/vendor/imgui"
+	include "Kilo/vendor/glad"
 	include "Kilo"
 	include "SandboxApp"

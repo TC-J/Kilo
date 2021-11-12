@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <tuple>
 #include <iostream>
+
 #include <Kilo/UI/UI.h>
 
 namespace Kilo {
@@ -18,10 +19,18 @@ namespace Kilo {
 #ifndef DLL
 
 int main() {
-	init_glfw();
+
 	std::cout << "Kilo Runtime Engine" << std::endl;
+	Kilo::UI::UIWindow ui;
 
+	ui.Create(1000,1000, "Tyler");
+	while (!ui.Closing()) {
+		ui.Poll();
+		ui.Clear();
+		ui.NewFrame();
 
-	while (true);
+		ui.RenderFrame();
+		ui.Render();
+	}
 }
 #endif

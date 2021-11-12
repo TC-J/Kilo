@@ -10,6 +10,9 @@
     <Filter Include="Kilo\UI">
       <UniqueIdentifier>{A11BDD8D-0DFB-5B29-1613-E7FF8271C28A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Kilo\UI\Base">
+      <UniqueIdentifier>{CBE44C36-B747-DCDA-60CD-14914C0FA85D}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Kilo.h" />
@@ -19,6 +22,9 @@
     <ClInclude Include="src\Kilo\Core\Error.h">
       <Filter>Kilo\Core</Filter>
     </ClInclude>
+    <ClInclude Include="src\Kilo\UI\Base\Base.h">
+      <Filter>Kilo\UI\Base</Filter>
+    </ClInclude>
     <ClInclude Include="src\Kilo\UI\UI.h">
       <Filter>Kilo\UI</Filter>
     </ClInclude>
@@ -27,6 +33,11 @@
     <ClCompile Include="src\Kilo\Core\Core.cpp">
       <Filter>Kilo\Core</Filter>
     </ClCompile>
-    <ClCompile Include="src\Kilo\UI\UI.cpp" />
+    <ClCompile Include="src\Kilo\UI\Base\Base.cpp">
+      <Filter>Kilo\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Kilo\UI\UI.cpp">
+      <Filter>Kilo\UI</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
